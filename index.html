@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My Portfolio</title>
+   <!-- Tailwind CSS CDN -->
+   <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <script src="./script.js" defer></script>
+</head>
+
+<body class="antialiased">
+
+   <!-- Header & Hero Section -->
+   <header class="bg-white shadow-sm">
+      <div class="container mx-auto px-6 py-4 flex items-center justify-between">
+         <h1 class="text-2xl font-bold text-gray-800">Deepak Dakua</h1>
+         <nav>
+            <a href="#projects"
+               class="text-gray-600 hover:text-indigo-600 font-medium transition-colors duration-300">Projects</a>
+         </nav>
+      </div>
+   </header>
+
+   <main class="py-16">
+      <div class="container mx-auto px-6">
+         <!-- Hero Section -->
+         <section class="text-center mb-20">
+            <img src="https://placehold.co/150x150/e2e8f0/64748b?text=Your+Photo" alt="Profile Picture"
+               class="w-36 h-36 rounded-full mx-auto mb-6 object-cover border-4 border-white shadow-lg">
+            <h2 class="text-4xl sm:text-5xl font-extrabold text-gray-900 mb-4">
+               Hello, I'm a Front-End Developer.
+            </h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+               A passionate developer focused on building clean, modern, and user-friendly web experiences. Here are a
+               couple of my recent projects.
+            </p>
+            <!-- Resume Download Button -->
+            <a href="path/to/your-resume.pdf" download
+               class="mt-6 inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 transition-colors duration-300 shadow-md">
+               Download Resume
+            </a>
+         </section>
+
+         <!-- Projects Section -->
+         <section id="projects" class="mb-16">
+            <h3 class="text-3xl font-bold text-center text-gray-800 mb-10">Featured Projects</h3>
+            <div class="grid md:grid-cols-2 gap-8">
+               <!-- NOOON Project Card -->
+               <div class="project-card bg-white rounded-lg shadow-lg p-6 flex flex-col justify-between">
+                  <div>
+                     <h4 class="text-2xl font-semibold text-gray-900 mb-2">NOOON - The Luxury Platform</h4>
+                     <p class="text-gray-600 mb-4">
+                        A high-end, responsive web platform with a minimalist, luxury-themed design. Features dynamic
+                        navigation and interactive card details to showcase products or services.
+                     </p>
+                     <div class="flex flex-wrap gap-2 mb-4">
+                        <span
+                           class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">HTML</span>
+                        <span
+                           class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">CSS</span>
+                        <span
+                           class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">JavaScript</span>
+                     </div>
+                  </div>
+                  <a href="#" class="inline-block self-end text-indigo-600 font-semibold hover:underline mt-4">
+                     View Project &rarr;
+                  </a>
+               </div>
+
+               <!-- Modern API Playground Project Card -->
+               <div class="project-card bg-white rounded-lg shadow-lg p-6 flex flex-col justify-between">
+                  <div>
+                     <h4 class="text-2xl font-semibold text-gray-900 mb-2">Modern Web API Playground</h4>
+                     <p class="text-gray-600 mb-4">
+                        A demonstration of modern browser APIs including Geolocation, Clipboard, Local Storage, and
+                        Notifications. It features a dark/light theme toggle and a Service Worker-ready status
+                        indicator.
+                     </p>
+                     <div class="flex flex-wrap gap-2 mb-4">
+                        <span
+                           class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">HTML</span>
+                        <span
+                           class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">CSS</span>
+                        <span
+                           class="bg-indigo-100 text-indigo-800 text-xs font-semibold px-2.5 py-0.5 rounded-full">JavaScript</span>
+                     </div>
+                  </div>
+                  <a href="#" class="inline-block self-end text-indigo-600 font-semibold hover:underline mt-4">
+                     View Project &rarr;
+                  </a>
+               </div>
+            </div>
+         </section>
+      </div>
+   </main>
+
+   <!-- Footer -->
+   <footer class="bg-white shadow-inner py-6 text-center text-gray-500">
+      <p>&copy; 2025 Deepak Dakua. All rights reserved.</p>
+   </footer>
+
+   <!-- Scroll-to-top button -->
+   <button id="scroll-to-top" class="scroll-to-top-btn" title="Go to top">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+      </svg>
+   </button>
+
+
+
+</body>
+
+</html>
